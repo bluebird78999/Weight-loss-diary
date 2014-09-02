@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CBEEA78D-A8FB-4594-844C-CEAFA3549ED3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Weight-loss-diary</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>994415AF-3E47-4DBA-BA4C-0BDE7B6BD8BC</key>
+		<string>ssh://github.com/bluebird78999/Weight-loss-diary.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Weight-loss-diary/Weight-loss-diary.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>994415AF-3E47-4DBA-BA4C-0BDE7B6BD8BC</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/bluebird78999/Weight-loss-diary.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>994415AF-3E47-4DBA-BA4C-0BDE7B6BD8BC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>994415AF-3E47-4DBA-BA4C-0BDE7B6BD8BC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Weight-loss-diary</string>
+		</dict>
+	</array>
+</dict>
+</plist>

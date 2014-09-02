@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		375E310F19B5937B005B1B23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375E310E19B5937B005B1B23 /* Foundation.framework */; };
+		375E311119B5937B005B1B23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375E311019B5937B005B1B23 /* CoreGraphics.framework */; };
+		375E311319B5937B005B1B23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375E311219B5937B005B1B23 /* UIKit.framework */; };
+		375E311919B5937B005B1B23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 375E311719B5937B005B1B23 /* InfoPlist.strings */; };
+		375E311B19B5937B005B1B23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 375E311A19B5937B005B1B23 /* main.m */; };
+		375E311F19B5937B005B1B23 /* TMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 375E311E19B5937B005B1B23 /* TMAppDelegate.m */; };
+		375E312219B5937B005B1B23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375E312019B5937B005B1B23 /* Main.storyboard */; };
+		375E312519B5937B005B1B23 /* TMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375E312419B5937B005B1B23 /* TMViewController.m */; };
+		375E312719B5937B005B1B23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375E312619B5937B005B1B23 /* Images.xcassets */; };
+		375E312E19B5937B005B1B23 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375E312D19B5937B005B1B23 /* XCTest.framework */; };
+		375E312F19B5937B005B1B23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375E310E19B5937B005B1B23 /* Foundation.framework */; };
+		375E313019B5937B005B1B23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375E311219B5937B005B1B23 /* UIKit.framework */; };
+		375E313819B5937B005B1B23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 375E313619B5937B005B1B23 /* InfoPlist.strings */; };
+		375E313A19B5937B005B1B23 /* Weight_loss_diaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 375E313919B5937B005B1B23 /* Weight_loss_diaryTests.m */; };
+		375E314A19B595ED005B1B23 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 375E314819B595ED005B1B23 /* Default-568h@2x.png */; };
+		375E314B19B595ED005B1B23 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 375E314919B595ED005B1B23 /* Default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		375E313119B5937B005B1B23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 375E310319B5937B005B1B23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 375E310A19B5937B005B1B23;
+			remoteInfo = "Weight-loss-diary";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		375E310B19B5937B005B1B23 /* Weight-loss-diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weight-loss-diary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		375E310E19B5937B005B1B23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		375E311019B5937B005B1B23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		375E311219B5937B005B1B23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		375E311619B5937B005B1B23 /* Weight-loss-diary-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Weight-loss-diary-Info.plist"; sourceTree = "<group>"; };
+		375E311819B5937B005B1B23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		375E311A19B5937B005B1B23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		375E311C19B5937B005B1B23 /* Weight-loss-diary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Weight-loss-diary-Prefix.pch"; sourceTree = "<group>"; };
+		375E311D19B5937B005B1B23 /* TMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMAppDelegate.h; sourceTree = "<group>"; };
+		375E311E19B5937B005B1B23 /* TMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMAppDelegate.m; sourceTree = "<group>"; };
+		375E312119B5937B005B1B23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		375E312319B5937B005B1B23 /* TMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMViewController.h; sourceTree = "<group>"; };
+		375E312419B5937B005B1B23 /* TMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMViewController.m; sourceTree = "<group>"; };
+		375E312619B5937B005B1B23 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		375E312C19B5937B005B1B23 /* Weight-loss-diaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weight-loss-diaryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		375E312D19B5937B005B1B23 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		375E313519B5937B005B1B23 /* Weight-loss-diaryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Weight-loss-diaryTests-Info.plist"; sourceTree = "<group>"; };
+		375E313719B5937B005B1B23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		375E313919B5937B005B1B23 /* Weight_loss_diaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Weight_loss_diaryTests.m; sourceTree = "<group>"; };
+		375E314819B595ED005B1B23 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		375E314919B595ED005B1B23 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		375E310819B5937B005B1B23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375E311119B5937B005B1B23 /* CoreGraphics.framework in Frameworks */,
+				375E311319B5937B005B1B23 /* UIKit.framework in Frameworks */,
+				375E310F19B5937B005B1B23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375E312919B5937B005B1B23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375E312E19B5937B005B1B23 /* XCTest.framework in Frameworks */,
+				375E313019B5937B005B1B23 /* UIKit.framework in Frameworks */,
+				375E312F19B5937B005B1B23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		375E310219B5937B005B1B23 = {
+			isa = PBXGroup;
+			children = (
+				375E311419B5937B005B1B23 /* Weight-loss-diary */,
+				375E313319B5937B005B1B23 /* Weight-loss-diaryTests */,
+				375E310D19B5937B005B1B23 /* Frameworks */,
+				375E310C19B5937B005B1B23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		375E310C19B5937B005B1B23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				375E310B19B5937B005B1B23 /* Weight-loss-diary.app */,
+				375E312C19B5937B005B1B23 /* Weight-loss-diaryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		375E310D19B5937B005B1B23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				375E310E19B5937B005B1B23 /* Foundation.framework */,
+				375E311019B5937B005B1B23 /* CoreGraphics.framework */,
+				375E311219B5937B005B1B23 /* UIKit.framework */,
+				375E312D19B5937B005B1B23 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		375E311419B5937B005B1B23 /* Weight-loss-diary */ = {
+			isa = PBXGroup;
+			children = (
+				375E314719B595DC005B1B23 /* images */,
+				375E311D19B5937B005B1B23 /* TMAppDelegate.h */,
+				375E311E19B5937B005B1B23 /* TMAppDelegate.m */,
+				375E312019B5937B005B1B23 /* Main.storyboard */,
+				375E312319B5937B005B1B23 /* TMViewController.h */,
+				375E312419B5937B005B1B23 /* TMViewController.m */,
+				375E312619B5937B005B1B23 /* Images.xcassets */,
+				375E311519B5937B005B1B23 /* Supporting Files */,
+			);
+			path = "Weight-loss-diary";
+			sourceTree = "<group>";
+		};
+		375E311519B5937B005B1B23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				375E311619B5937B005B1B23 /* Weight-loss-diary-Info.plist */,
+				375E311719B5937B005B1B23 /* InfoPlist.strings */,
+				375E311A19B5937B005B1B23 /* main.m */,
+				375E311C19B5937B005B1B23 /* Weight-loss-diary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		375E313319B5937B005B1B23 /* Weight-loss-diaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				375E313919B5937B005B1B23 /* Weight_loss_diaryTests.m */,
+				375E313419B5937B005B1B23 /* Supporting Files */,
+			);
+			path = "Weight-loss-diaryTests";
+			sourceTree = "<group>";
+		};
+		375E313419B5937B005B1B23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				375E313519B5937B005B1B23 /* Weight-loss-diaryTests-Info.plist */,
+				375E313619B5937B005B1B23 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		375E314719B595DC005B1B23 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				375E314819B595ED005B1B23 /* Default-568h@2x.png */,
+				375E314919B595ED005B1B23 /* Default@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		375E310A19B5937B005B1B23 /* Weight-loss-diary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 375E313D19B5937B005B1B23 /* Build configuration list for PBXNativeTarget "Weight-loss-diary" */;
+			buildPhases = (
+				375E310719B5937B005B1B23 /* Sources */,
+				375E310819B5937B005B1B23 /* Frameworks */,
+				375E310919B5937B005B1B23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Weight-loss-diary";
+			productName = "Weight-loss-diary";
+			productReference = 375E310B19B5937B005B1B23 /* Weight-loss-diary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		375E312B19B5937B005B1B23 /* Weight-loss-diaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 375E314019B5937B005B1B23 /* Build configuration list for PBXNativeTarget "Weight-loss-diaryTests" */;
+			buildPhases = (
+				375E312819B5937B005B1B23 /* Sources */,
+				375E312919B5937B005B1B23 /* Frameworks */,
+				375E312A19B5937B005B1B23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				375E313219B5937B005B1B23 /* PBXTargetDependency */,
+			);
+			name = "Weight-loss-diaryTests";
+			productName = "Weight-loss-diaryTests";
+			productReference = 375E312C19B5937B005B1B23 /* Weight-loss-diaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		375E310319B5937B005B1B23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = TopMobile.me;
+				TargetAttributes = {
+					375E312B19B5937B005B1B23 = {
+						TestTargetID = 375E310A19B5937B005B1B23;
+					};
+				};
+			};
+			buildConfigurationList = 375E310619B5937B005B1B23 /* Build configuration list for PBXProject "Weight-loss-diary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 375E310219B5937B005B1B23;
+			productRefGroup = 375E310C19B5937B005B1B23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				375E310A19B5937B005B1B23 /* Weight-loss-diary */,
+				375E312B19B5937B005B1B23 /* Weight-loss-diaryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		375E310919B5937B005B1B23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375E312719B5937B005B1B23 /* Images.xcassets in Resources */,
+				375E314A19B595ED005B1B23 /* Default-568h@2x.png in Resources */,
+				375E314B19B595ED005B1B23 /* Default@2x.png in Resources */,
+				375E311919B5937B005B1B23 /* InfoPlist.strings in Resources */,
+				375E312219B5937B005B1B23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375E312A19B5937B005B1B23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375E313819B5937B005B1B23 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		375E310719B5937B005B1B23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375E312519B5937B005B1B23 /* TMViewController.m in Sources */,
+				375E311B19B5937B005B1B23 /* main.m in Sources */,
+				375E311F19B5937B005B1B23 /* TMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375E312819B5937B005B1B23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375E313A19B5937B005B1B23 /* Weight_loss_diaryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		375E313219B5937B005B1B23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 375E310A19B5937B005B1B23 /* Weight-loss-diary */;
+			targetProxy = 375E313119B5937B005B1B23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		375E311719B5937B005B1B23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				375E311819B5937B005B1B23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		375E312019B5937B005B1B23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				375E312119B5937B005B1B23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		375E313619B5937B005B1B23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				375E313719B5937B005B1B23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		375E313B19B5937B005B1B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		375E313C19B5937B005B1B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		375E313E19B5937B005B1B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Weight-loss-diary/Weight-loss-diary-Prefix.pch";
+				INFOPLIST_FILE = "Weight-loss-diary/Weight-loss-diary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		375E313F19B5937B005B1B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Weight-loss-diary/Weight-loss-diary-Prefix.pch";
+				INFOPLIST_FILE = "Weight-loss-diary/Weight-loss-diary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		375E314119B5937B005B1B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Weight-loss-diary.app/Weight-loss-diary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Weight-loss-diary/Weight-loss-diary-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Weight-loss-diaryTests/Weight-loss-diaryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		375E314219B5937B005B1B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Weight-loss-diary.app/Weight-loss-diary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Weight-loss-diary/Weight-loss-diary-Prefix.pch";
+				INFOPLIST_FILE = "Weight-loss-diaryTests/Weight-loss-diaryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		375E310619B5937B005B1B23 /* Build configuration list for PBXProject "Weight-loss-diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375E313B19B5937B005B1B23 /* Debug */,
+				375E313C19B5937B005B1B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		375E313D19B5937B005B1B23 /* Build configuration list for PBXNativeTarget "Weight-loss-diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375E313E19B5937B005B1B23 /* Debug */,
+				375E313F19B5937B005B1B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		375E314019B5937B005B1B23 /* Build configuration list for PBXNativeTarget "Weight-loss-diaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375E314119B5937B005B1B23 /* Debug */,
+				375E314219B5937B005B1B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 375E310319B5937B005B1B23 /* Project object */;
+}
